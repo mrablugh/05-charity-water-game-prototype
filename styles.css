@@ -52,6 +52,16 @@ body {
     z-index: 10;
 }
 
+#charity-water-logo {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+    width: clamp(120px, 18vw, 180px);
+    height: auto;
+    z-index: 10;
+    pointer-events: none;
+}
+
 #score-display {
     color: white;
     font-size: clamp(18px, 2.6vw, 24px);
@@ -74,5 +84,11 @@ body {
     #ui-layer {
         top: 8px;
         right: 10px;
+    }
+
+    #charity-water-logo {
+        right: 10px;
+        bottom: 10px;
+        width: clamp(96px, 32vw, 140px);
     }
 }
